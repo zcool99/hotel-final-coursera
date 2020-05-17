@@ -1,0 +1,16 @@
+{
+  "name": "hoteles",
+  "version": "1.0.0",
+  "description": "Primer proyecto nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://minerva_moran@bitbucket.org/minerva_moran/hoteles.git"
+  },
+  "author": "Minerva Moran c",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/minerva_moran/hoteles#readme"
+}
