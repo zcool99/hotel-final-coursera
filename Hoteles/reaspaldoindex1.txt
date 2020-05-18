@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery/min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ 
+ 
+ <div class="jumbotron">
+	<h1 class="display-4">Hoteles</h1>
+	<p class="lead"></p>
+	<hr class="my-4">
+	<p></p>
+	<a class="btn btn-primary btn-lg" href="#" role="button">Saber mas</a>
+  </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<h1>Hotel A</h1>
+				<p> Bonito</p>
+			</div>
+			<div class="col-sm-4">
+				<h1>Hotel B</h1>
+				<p> Caro</p>
+			</div>
+			<div class="col-sm-4">
+				<h1>Hotel C</h1>
+				<p> Lujoso</p>
+			</div>
+		</div>
+		
+
+		<div class="row">
+			<div class="col-sm-3">		
+				<h2>Hotel 1</h2>
+				<p>Hotel en lista 1</p>
+				<button class="btn">Reservar</button>
+				</div>
+			<div class="col-sm-3">		
+				<h2>Hotel 2</h2>
+				<p>Hotel en lista 2</p>
+				<button class="btn">Reservar</button>
+				</div>	
+<div class="col-sm-3">		
+				<h2>Hotel 3</h2>
+				<p>Hotel en lista 3</p>
+				<button class="btn">Reservar</button>
+				</div>
+		<div class="col-sm-3">		
+				<h2>Hotel 4</h2>
+				<p>Hotel en lista 4</p>
+				<button class="btn">Reservar</button>
+				</div>
+		</div>
+		</div>
+	
+			
+	
+	
+
+
+
+  </body>
+</html>
