@@ -13,7 +13,6 @@ margin-top: 10px;
 
 .card-hotel{
 	flex: 1 200px;
-
 	margin-top: 10px;
 }
 
@@ -25,4 +24,8 @@ margin-top: 10px;
 
 .footer-address-icon{
 	padding-right: 10px;
+}
+
+.tab-content{
+	padding-top: 10 px;
 }
