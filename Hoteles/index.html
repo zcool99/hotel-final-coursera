@@ -48,21 +48,32 @@
 
 		</ol>
 	</nav>
-		<div class="row">
-			<div class="col-sm-4">
-				<h1>Información para reservar</h1>
-				<p>Instructivo de reserva</p>
-			</div>
-			
-			<div class="col-sm-4">
-				<h1>Información de pagos</h1>
-				<p>Instructivo para realizar los pagos</p>
-			</div>
-			<div class="col-sm-4">
-				<h1>FAQ</h1>
-				<p> Preguntas frecuentes</p>
-			</div>
+	<div class="row">		
+		<div class="col-sm-4">
+			<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva" aria-expanded="false" aria-controls="multicollapse1">Reserva</button>
+		</div>			
+		<div class="col-sm-4">
+			<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pagos" aria-expanded="false" aria-controls="multicollapse2">Pagos</button>
 		</div>
+		<div class="col-sm-4">
+			<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#faq" aria-expanded="false" aria-controls="multicollapse3">FAQ</button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4 collapse multi-collapse" id="reserva">
+			<h1>Información para reservar</h1>
+			<p>Instructivo de reserva</p>
+		</div>
+			
+		<div class="col-sm-4 collapse multi-collapse" id="pagos">
+			<h1>Información de pagos</h1>
+			<p>Instructivo para realizar los pagos</p>
+		</div>
+		<div class="col-sm-4 collapse multi-collapse" id="faq">
+			<h1>FAQ</h1>
+			<p> Preguntas frecuentes</p>
+		</div>
+	</div>
 		
 
 		<div class="d-flex flex-wrap flex-row-reverse">
