@@ -113,7 +113,7 @@
 			<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
 				<img src="images/hotel3.jpg" class="card-img-top" alt="Responsive image">
 				<div class="card-body">		
-					<h5 class="card-title">Hotel 4</h5>
+					<h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Primeras reservas con regalos.">Hotel 4</h5>
 					<h6 class="card-subtitle text-muted">Lugar 4</h6>
 					<p>Hotel en lista 4</p>
 				</div>
@@ -152,7 +152,7 @@
 					<p>Hotel en lista 7</p>
 				</div>
 				<div>
-					<button class="btn btn-primary btn-reserva">Reservar</button>
+					<button type="button" class="btn btn-primary btn-reserva" data-toggle="popover" title="Promociones" data-content="Consulta promociones">Reservar</button>
 				</div>
 			</div>
 			<div class="card  card-hotel d-flex flex-column justify-content-between ml-2">
@@ -163,7 +163,7 @@
 					<p>Hotel en lista 8</p>
 				</div>
 				<div>
-					<button class="btn btn-primary btn-reserva">Reservar</button>
+					<button class="btn btn-primary btn-reserva" >Reservar</button>
 				</div>
 			</div>
 			<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
@@ -233,6 +233,11 @@
 			</div>
 		</div>	
 	</footer>
-
+<script >
+	$(function(){
+		$("[data-toggle='tooltip']").tooltip();
+		$("[data-toggle='popover']").popover();
+	});
+</script>
   </body>
 </html>
