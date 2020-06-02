@@ -198,7 +198,7 @@
 					<h5 class="card-title">Hotel 9</h5>
 					<h6 class="card-subtitle text-muted">Lugar 9</h6>
 					<p>Hotel en lista 9</p>
-					<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+					<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contactoBtn">Contacto</button>
 				</div>					
 				<div>
 					<button type="button" class="btn btn-primary btn-reserva">Reservar</button>
@@ -266,6 +266,23 @@
 		$('.carousel').carousel({
 			interval: 100
 		});
+
+		$('#contacto').on('show.bs.modal',function(e){
+			console.log('el modal se está  mostrando');
+			$('#contactoBtn').removeClass('btn-outline-success');
+			$('#contactoBtn').addClass('btn-primary');
+		});
+
+		$('#contacto').on('shown.bs.modal',function(e){
+			console.log('el modal se mostró')
+		});
+		$('#contacto').on('hide.bs.modal',function(e){
+			console.log('el modal se oculta')
+		});
+		$('#contacto').on('hidden.bs.modal',function(e){
+			console.log('el modal se ocultó')
+		});
+
 	});
 </script>
   </body>
