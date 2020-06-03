@@ -13,7 +13,7 @@
 
     <!-- Bootstrap CSS -->       
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
 	<title>Guia de Hoteles</title>
   </head>
@@ -267,10 +267,14 @@
 			interval: 100
 		});
 
+
+
+
 		$('#contacto').on('show.bs.modal',function(e){
 			console.log('el modal se está  mostrando');
 			$('#contactoBtn').removeClass('btn-outline-success');
 			$('#contactoBtn').addClass('btn-primary');
+			$('#contactoBtn').prop('disabled',true);
 		});
 
 		$('#contacto').on('shown.bs.modal',function(e){
