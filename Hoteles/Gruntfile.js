@@ -60,7 +60,19 @@ module.exports = function(grunt){
           dest: 'dist'
         }]
       },
+
+      font: {
+        files: [
+        {
+          expand: true,
+          dot: true,
+          cwd: 'node_modules/open-iconic/font',
+          src: ['fonts/*.*'],
+          dest: 'dist'
+        }]
+      }
     },
+    
   
     clean: {
       build: {
@@ -125,6 +137,7 @@ module.exports = function(grunt){
     cssmin: {
       dist: {}
     },
+
     usemin: {
       html: ['dist/index.html', 'dist/about.html', 'dist/precios.html', 'dist/contacto.html'],
       options: {
