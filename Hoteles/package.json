@@ -16,11 +16,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://minerva_moran@bitbucket.org/minerva_moran/hoteles.git"
+    "url": "git+https://github.com/zcool99/hotel-final-coursera.git"
   },
-  "author": "Minerva Moran c",
+  "author": "Omar Hdez",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/minerva_moran/hoteles#readme",
+  "homepage": "https://github.com/zcool99/hotel-final-coursera#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "copyfiles": "^2.3.0",

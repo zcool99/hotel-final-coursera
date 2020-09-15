@@ -2,7 +2,7 @@
 		$("[data-toggle='tooltip']").tooltip();
 		$("[data-toggle='popover']").popover();
 		$('.carousel').carousel({
-			interval: 100
+			interval: 4000
 		});
 
 		$('#contacto').on('show.bs.modal',function(e){
